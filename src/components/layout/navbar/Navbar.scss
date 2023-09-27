@@ -1,0 +1,41 @@
+.container-nav {
+  display: flex;
+  align-items: center;
+  background-color: rgb(6, 0, 34);
+  border-bottom: 10px solid #acacac39;
+  &__brand {
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    img {
+      width: 120px;
+      transition: all 0.3s ease;
+    }
+    img:hover {
+      filter: contrast(1.6);
+    }
+    h1 {
+      color: #00ddff;
+      font-size: 1em;
+    }
+    h1:hover {
+      text-shadow: 0 0 10px #fff;
+    }
+  }
+
+  ul {
+    display: flex;
+    gap: 20px;
+    li {
+      list-style: none;
+      cursor: pointer;
+      color: #fff;
+      font-size: 1.4em;
+      transition: all 0.2s ease;
+    }
+    li:hover {
+      color: #fff;
+      text-shadow: 0 0 10px #fff;
+    }
+  }
+}
